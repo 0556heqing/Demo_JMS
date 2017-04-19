@@ -17,7 +17,7 @@ public class ATopicConsumer2 implements MessageListener{
 	@Override
 	public void onMessage(Message message) {
 		try {
-			System.out.println("ActiveMQ Topic 1接收到消息:"+((TextMessage)message).getText());
+			System.out.println("ActiveMQ Topic 2接收到消息:"+((TextMessage)message).getText());
 		} catch (JMSException e) {
 			e.printStackTrace();
 		}
